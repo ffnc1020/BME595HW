@@ -44,7 +44,7 @@ The result image are shown for each tasks as bellow.
 
 
 ### Part B
-The duration is plotted against i for both 720p and 1080p image. The operation duration is porportional to the number of channel of the output image/tensor.
+The duration is plotted against i for both 720p and 1080p image. The operation duration is porportional to the number of channels of the output image/tensor.
 
 ![](Task_B.png)
 
@@ -54,7 +54,7 @@ The number of operations are plotted against the kernel size for both 720p and 1
 ![](Task_C.png)
 
 ### Part D:
-The duration is plotted against i for both 720p and 1080p image. The operation durations are orders of magnitudes smaller than python implimentation. For loop in python should be replaced by vectorized operations.
+The duration is plotted against i for both 720p and 1080p image. The operation durations are orders of magnitudes smaller than the python implimentation. For loop in python should be replaced by vectorized operations.
 
 ![](Task_D.png)
 
