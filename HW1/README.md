@@ -14,15 +14,34 @@ BME595A Homework Fall 2017
 #### Task2
 ##### k4
 ###### 720p:
-![](Task1_k_4_720p.png)
+![](Task2_k_4_720p.png)
 ###### 1080p:
-![](Task1_k_4_1080p.png)
+![](Task2_k_4_1080p.png)
 
 ##### k5
 ###### 720p:
-![](Task1_k_5_720p.png)
+![](Task2_k_5_720p.png)
 ###### 1080p:
-![](Task1_k_5_1080p.png)
+![](Task2_k_5_1080p.png)
+
+#### Task3
+##### k1
+###### 720p
+![](Task3_k_1_720p.png)
+###### 1080p
+![](Task3_k_1_1080p.png)
+
+##### k2
+###### 720p
+![](Task3_k_2_720p.png)
+###### 1080p
+![](Task3_k_2_1080p.png)
+
+##### k3
+###### 720p
+![](Task3_k_3_720p.png)
+###### 1080p
+![](Task3_k_3_1080p.png)
 
 Using k1, k2, k3, stride = 2
 Task3: 720p:    Number of operations = 6664617
