@@ -2,7 +2,7 @@
 BME595A Homework Fall 2017
 
 ### Part A
-
+The result image are shown for each tasks as bellow.
 #### Task1
 ###### 720p:
 ![](Task1_720p.png)
@@ -42,14 +42,12 @@ BME595A Homework Fall 2017
 ###### 1080p
 ![](Task3_k3_1080p.png)
 
-Using k1, k2, k3, stride = 2
-Task3: 720p:    Number of operations = 6664617
-Task3: 1080p:   Number of operations = 15008117
 
 ### Part B
-The duration is plotted against 
+The duration is plotted against i for both 720p and 1080p image. The operation duration is porportional to the number of channel of the output image/tensor.
 
 ### Part C:
+The number of operations are plotted against the kernel size.
 
 ### Part D:
 
