@@ -13,7 +13,7 @@ def main():
     print("Task 3")
     
     # loading image and convert to torch floatTensor
-    img_in_pil = Image.open('720p.jpg')
+    img_in_pil = Image.open('1080p.jpg')
     img_in_np = np.array(img_in_pil)
     img_in_np_transposed = np.transpose(img_in_np,(2,0,1))
 
