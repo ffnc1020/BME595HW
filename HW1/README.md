@@ -1,20 +1,28 @@
 # BME595HW
 BME595A Homework Fall 2017
 
-###Part A
+### Part A
 
 
-#####Task1
-######720p:
+#### Task1
+##### 720p:
 ![](Task1_720p.png)
 
+##### 1080p:
+![](Task1_1080p.png)
 
-######1080p:
+#### Task2
+##### k4
+###### 720p:
+![](Task1_k_4_720p.png)
+###### 1080p:
+![](Task1_k_4_1080p.png)
 
-
-Using k4, k5
-Task2: 720p:    Number of operations = 47531984
-Task2: 1080p:   Number of operations = 107239984
+##### k5
+###### 720p:
+![](Task1_k_5_720p.png)
+###### 1080p:
+![](Task1_k_5_1080p.png)
 
 Using k1, k2, k3, stride = 2
 Task3: 720p:    Number of operations = 6664617
