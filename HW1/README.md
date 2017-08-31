@@ -1,11 +1,16 @@
 # BME595HW
 BME595A Homework Fall 2017
 
-Part A
+###Part A
 
-Using k1
-Task1: 720p:    Number of operations = 18364068
-Task1: 1080p:   Number of operations = 41370068
+
+#####Task1
+######720p:
+![](Task1_720p.png)
+
+
+######1080p:
+
 
 Using k4, k5
 Task2: 720p:    Number of operations = 47531984
@@ -15,7 +20,7 @@ Using k1, k2, k3, stride = 2
 Task3: 720p:    Number of operations = 6664617
 Task3: 1080p:   Number of operations = 15008117
 
-Part B
+###Part B
 
 1080p:
 i = 0, o_channel = 1
@@ -83,7 +88,7 @@ dt = 6927.64927816391
 
 i = 10, 0_channel = 1024
 
-Part C:
+###Part C:
 
 Kernel size = 3, Number of operations = 33963336
 
@@ -95,7 +100,7 @@ Kernel size = 9, Number of operations = 294388608
 
 Kernel size = 11, Number of operations = 437384200
 
-Part D:
+###Part D:
 
 720p:
 i = 0, o_channel = 1
