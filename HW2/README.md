@@ -1,5 +1,5 @@
-# BME595HW
-BME595A Homework2 Fall 2017
+# BME595A Homework2 Fall 2017
+## Fan Fei
 
 ### Part A
 The input layer dimension is initiated by list layer_size with randomized weights theta_i and zero bias bias_i. Weights and bias are stored in the object in dictionary network. The getLayer function will return theta_i as a torch Tensor. The forward function will forward propogate the network to get the output.
