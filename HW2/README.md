@@ -14,23 +14,33 @@ The testing input of the 4 gates are as follows.
 
 #### AND
 print(AND(False,False))
+
 print(AND(False,True))
+
 print(AND(True,False))
+
 print(AND(True,True))
 
 #### OR
 print(OR(False,False))
+
 print(OR(False,True))
+
 print(OR(True,False))
+
 print(OR(True,True))
 
 
 #### NOT
 print(NOT(False))
+
 print(NOT(True))
 
 #### XOR
 print(XOR(False,False))
+
 print(XOR(False,True))
+
 print(XOR(True,False))
+
 print(XOR(True,True))
