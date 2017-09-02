@@ -6,10 +6,10 @@ The input layer dimension is initiated by list layer_size with randomized weight
 
 The input could be 1D or 2D Tensor, the input examples could be stacked either as column or row vectors. The prefered way is to stack input examples (column vectors) horizontally (only need to do so when the number of examples = number of features).
 
-The testing of creating a network object, access and modify weights and forward propogate using 1D, 2D row vectors, 2D column vectors are in the test.py with printed explinations.
+The testing of creating a network object, access and modify weights and forward propogate using 1D, 2D row vectors, 2D column vectors are in the test.py with printed explanations.
 
 ### Part B
-The logic gate classes can take boolean or int of floating number as input, where anything other than 0 is True.
+The logic gate classes can take boolean or int of floating number as input, where anything other than 0 is True. The outputs are boolean.
 The testing input of the 4 gates are as follows.
 
 #### AND
