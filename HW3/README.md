@@ -2,7 +2,7 @@
 ## Fan Fei
 
 ### Summary
-In nerual_network.py the backward function will utilize the the variable calculated in the forward function to calculate the gradient. Specifically, linear activation $Z[i] = W[i]A[i-1]$ is and $A = sigmoid(Z)$ are used, where $W$ is the weight matrix and $A$ is the activation. Given the initial $\frac{\partial Loss}{\partial Y}$, the derivative with respect to Loss of all the previous $Z$, $W$ and $A$ can be calculated base on chain rule.
+In nerual_network.py the backward function will utilize the the variable calculated in the forward function to calculate the gradient. Specifically, linear activation $$Z[i] = W[i]A[i-1]$$ is and $A = sigmoid(Z)$ are used, where $W$ is the weight matrix and $A$ is the activation. Given the initial $\frac{\partial Loss}{\partial Y}$, the derivative with respect to Loss of all the previous $Z$, $W$ and $A$ can be calculated base on chain rule.
 
 In the test.py all the training function a truth table is defined. By randomly index the truth table, large number of training example can be generated. The traning is done with 100 example per epoch, and trained over 10000 epoch for XOR gate and 1000 epoch for all other gates.
 
