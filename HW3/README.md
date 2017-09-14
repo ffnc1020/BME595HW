@@ -1,4 +1,4 @@
-# BME595A Homework2 Fall 2017
+# BME595A Homework 3 Fall 2017
 ## Fan Fei
 
 ### Summary
