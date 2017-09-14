@@ -87,10 +87,9 @@ class NeuralNetwork(object):
         AO = cache['A'+str(num_of_layers-1)]
         m = Y.shape[1]
         if loss == 'CE':
-            Loss = torch.cumsum((AO - Y),dim=0)/(2*m)
-            dAO = 0
+            dAO = -(torch.div(Y,AO)-torch.div(1-Y, 1-AO))
         else:
-            Loss = torch.cumsum((AO - Y),dim=0)/(2*m)
+            #Loss = torch.cumsum((AO - Y),dim=0)/(2*m)
             dAO = AO - Y
         #print('Loss = '+str(loss))
         self.grad = {'dA'+str(num_of_layers-1):dAO}

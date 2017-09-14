@@ -19,9 +19,9 @@ def main():
     print('Initial weight at layer ' + str(index) + ':')
     print(test.getLayer(index))
     
-    for i in range(1,500):
+    for i in range(1,100):
         test.forward(NN_in)
-        test.backward(torch.Tensor([[1,1]]))
+        test.backward(torch.Tensor([[1,1]]),'CE')
         test.updateParams(0.5)
 
     NN_out = test.forward(NN_in)
@@ -30,7 +30,7 @@ def main():
     theta = test.getLayer(index)
     print('Updated weight at layer ' + str(index) + ':')
     print(test.getLayer(index))
-    
+
     print('======Test then trian AND gate')
     AND = logic_gates.AND()
     print(AND(False,False))
@@ -92,6 +92,8 @@ def main():
     print(XOR(False,True))
     print(XOR(True,False))
     print(XOR(True,True))
+    
+
     '''
     print("Homework 2 ==========================")
     layer_size = [5,4,3,2,1]
