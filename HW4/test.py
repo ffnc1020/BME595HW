@@ -9,10 +9,10 @@ def main():
     print('Homework 4 ==========================')
 
     t0 = time.time()
-    myNN = MyImg2Num()
-    myNN.train()
-    #myNN = NnImg2Num()
+    #myNN = MyImg2Num()
     #myNN.train()
+    myNN = NnImg2Num()
+    myNN.train()
     tf = time.time()
     print('Duration '+str(tf-t0)+'s')
 
