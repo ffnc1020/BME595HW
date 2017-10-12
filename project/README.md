@@ -15,3 +15,6 @@ The model take 9 timeseries data from gyro, accelerometer and magnetometer and o
 1. Experimental work that involves hardware is always difficult. Currently we do not have the data acquisition setup to get ground truth from Vicon cameras. Since this method is data driven, we need to conduct enought test flights to acquire sufficient data.
 2. The SVSF filter has non-differentiable components which we need to come up with tricks to make it work with back propagation.
 3. Since we have zero experience with recurrent neural network, the training and tuning could be challenging.
+## Initial Results
+We use a “vanilla” RNN network with three hidden layers and each layer has 10 neurons. The initial result is plotted as follows. The root mean square error (RMSE) of each axis is 4.1192, 4.5366 and 4.7619 degrees for roll, pitch and yaw axis respectively, which is slightly higher than the state-of-the-art method which directly leveraging the physics and sensor characteristics.
+
